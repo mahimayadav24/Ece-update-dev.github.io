@@ -44,6 +44,7 @@ function prev() {
         $("#img__deco").attr("src", "./Assets/245-edit-document-outline (6) 1.png");
         l.style.padding = "5px";
         s.style.background ='rgb(229, 229, 229)';
+        l.style.background ='rgb(171, 202, 255)';
     }
     else {
         x.style.display = 'block';
@@ -89,7 +90,7 @@ function prevTab() {
     if (z.style.display === 'block') {
         z.style.display = 'none';
         x.style.display = 'block';
-        k.style.background = 'rgba(255, 255, 255, 1)';
+        k.style.background = 'rgba(244, 244, 244, 1)';
         t.style.background = 'rgba(229, 229, 229, 1)';
         t.style.color = 'rgba(185, 185, 185, 1)';
         i.style.background = 'rgba(229, 229, 229, 1)';
